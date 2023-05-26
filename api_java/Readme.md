@@ -8,3 +8,6 @@ useradd -r -d /opt/movieapi -s /usr/bin/nologin movieapi
 
 ## Install service
 Copy movieapi.service in /usr/lib/systemd/system
+
+## Rotation des logs
+Copy logrotate config file movieapi dans /etc/logrotate.d/
