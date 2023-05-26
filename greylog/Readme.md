@@ -1,5 +1,9 @@
 # Greylog
 
+## Liens
+- https://go2docs.graylog.org/5-0/downloading_and_installing_graylog/docker_installation.htm
+- https://github.com/Graylog2/docker-compose/tree/main/open-core
+
 ## Installation des images docker
 
 ```
