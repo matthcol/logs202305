@@ -7,4 +7,4 @@ Put movieapi.jar (not provided here) and application.properties in /opt/movieapi
 useradd -r -d /opt/movieapi -s /usr/bin/nologin movieapi 
 
 ## Install service
-Copy movieapi.service in /usr/lib/system/system
+Copy movieapi.service in /usr/lib/systemd/system
