@@ -16,3 +16,24 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:8.8.0
 ## Launch composition
 docker compose up -d
 
+## Remove composition
+docker compose down
+
+## Lifecycle
+```
+docker compose start
+docker compose start graylog
+docker compose stop
+docker compose stop graylog
+```
+
+## Supervision
+### Active containers
+docker compose ps
+
+### All containers (include stopped ones)
+docker compose ps -a
+
+## Logs
+docker compose logs graylog
+
