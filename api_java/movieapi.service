@@ -1,0 +1,13 @@
+[Unit]
+Description=A Spring Boot application
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=movieapi
+WorkingDirectory=/opt/movieapi
+ExecStart=java -jar movieapi.jar
+SuccessExitStatus=143 
+
+[Install] 
+WantedBy=multi-user.target
