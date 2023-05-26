@@ -12,3 +12,7 @@ docker pull mongo
 docker pull opensearchproject/opensearch
 docker pull docker.elastic.co/elasticsearch/elasticsearch:8.8.0
 ```
+
+## Launch composition
+docker compose up -d
+
